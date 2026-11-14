@@ -1,0 +1,31 @@
+# Secrets (never commit API keys)
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Generated output
+output/*.xlsx
+
+# Testing and tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*.xlsx

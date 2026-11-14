@@ -1,0 +1,11 @@
+Story ID: PROJ-101
+Title: User Login
+Description: As a registered user, I want to log in with my email and password so that I can access my account.
+
+Acceptance Criteria:
+AC1: User can log in with a valid registered email and correct password and is redirected to the dashboard.
+AC2: Login fails with an error message "Invalid email or password" when the email or password is incorrect.
+AC3: Email field must accept only valid email formats; an inline validation error is shown otherwise.
+AC4: Password field is masked and has a minimum length of 8 characters.
+AC5: After 5 consecutive failed attempts the account is locked for 15 minutes.
+AC6: A "Forgot password" link is visible on the login page and navigates to the password reset page.
